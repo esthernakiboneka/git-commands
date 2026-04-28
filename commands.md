@@ -1,6 +1,6 @@
-clone
-checkout
--b
+- clone
+- checkout
+  - -b
 status
 push
 -u
