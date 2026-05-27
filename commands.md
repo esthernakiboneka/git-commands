@@ -1,16 +1,16 @@
-- clone
-- checkout
-  - -b
-status
-push
--u
-pull
-add
-commit
--m
--a
--am
-branch
--a
--d
-merge
+- clone: The git clone command is used to create a copy of an existing Git repository. 
+- checkout: Move to an existing branch to start working on it.
+  - -b: allows you to create a new branch and switch to it immediately.
+- status: used to display the current state of your working directory and the staging area.
+- push: used to upload local repository content to a remote repository, such as GitHub or GitLab.
+  - -u: flag links your local branch to the remote branch, allowing you to use just git push in the future.
+- pull: used to update your local repository with changes from a remote server.
+- add: used to move changes from your working directory to the staging area
+- commit: captures a snapshot of your project's currently staged changes and saves it to the local repository history.
+  - -m: Adds a commit message directly from the command line.
+  - -a: Automatically stages all modified and deleted tracked files before committing.
+  - -am: Combines staging and committing in one step (only for already tracked files).
+- branch: a lightweight, movable pointer to a specific commit
+  - -a: List all local and remote-tracking branches.
+  - -d: deletes the branch
+- merge: a command used to integrate changes from one branch into another.
